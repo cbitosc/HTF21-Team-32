@@ -1,0 +1,224 @@
+<html>
+<head>
+<title>TVG | Delhi</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {
+  box-sizing: border-box;
+}
+.mySlides {
+    display:none;
+    position: relative;
+    width:  600px;
+    height: 400px;
+    left: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+}
+#c1 {
+  background-image: url("delc.jpg");
+  height: 330px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#c2 {
+  width: 200px;
+  height: 45px;  
+  padding: 10px 10px;
+  position:relative;
+  top:120px;
+}
+.navbar {
+  width: 100%;
+  background-color: #89d5e8;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #0b7bb8;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 1600px; 
+}
+nav {
+  float: left;
+  width: 30%;
+  height: 1600px; 
+  background: #ccc;
+  padding: 20px;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+a{text-decoration:none;
+ color:#2E5894;}
+table.t2 {
+  width: 100%; 
+  background-color: white;
+  color:black;
+}
+table.t3{
+ width:300px;
+ height:120px;
+ background-color: white;
+ color:black;
+ border: 1px solid black;
+ text-decoration:none;
+}
+</style>
+</head>
+<body>
+<div id="c1">
+ <center><div id="c2" >
+  <font size="8">Delhi</font>
+</div></center>
+</div>
+<div class="navbar">
+  <a  href="home2.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="delhi_hotels.html"><i class="fa fa-building" aria-hidden="true"></i> Hotels</a> 
+  <a href="delhi_touristspots.html"><i class="fa fa-compass" aria-hidden="true"></i> Tourist spots</a> 
+  <a href="delhi_adventures.html"><i class="fa fa-fort-awesome" aria-hidden="true"></i> Adventures</a>
+  <a href="delhi_parks.html"><i class="fa fa-envira" aria-hidden="true"></i> Parks</a>
+
+</div>
+<section>
+<article>
+    <p><font size="8" color="black">Delhi</font><h2>Overview</h2></p>
+    <p>Delhi is on three sides and by Uttar Pradesh (Gautam Budh Nagar, Ghaziabad and Baghpat) to the east. The NCT covers an area of 1,484 square kilometres (573 sq mi). According to the 2011 census, Delhi's city proper population was over 11 million, the second-highest in India after Mumbai, while the whole NCT's population was about 16.8 million. Delhi's urban area is now considered to extend beyond the NCT boundaries and include the neighboring satellite cities of Faridabad, Gurgaon, Sonipat, Ghaziabad and Noida in an area now called Central National Capital Region (CNCR) and had an estimated 2016 population of over 26 million people, making it the world's third-largest urban area according to United Nations. As of 2016, recent estimates of the metro economy of its urban area have ranked Delhi either the most or second-most productive metro area of India. Delhi is the second-wealthiest city in India after Mumbai and is home to 18 billionaires and 23,000 millionaires.Delhi ranks fifth among the Indian states and union territories in human development index. Delhi has the second-highest GDP per capita in India.</p>
+  
+<div  style="max-width:500px;">
+  <img class="mySlides" src="d1.jpg" >
+  <img class="mySlides" src="d2.jpg" >
+  <img class="mySlides" src="d3.jpg" >
+  <img class="mySlides" src="d4.jpg" >
+  <img class="mySlides" src="d5.jpg" >
+  <img class="mySlides" src="d6.jpg" >
+  <img class="mySlides" src="d7.png" >
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 3 seconds
+}
+</script>
+<p>Delhi is on three sides and by Uttar Pradesh (Gautam Budh Nagar, Ghaziabad and Baghpat) to the east. The NCT covers an area of 1,484 square kilometres (573 sq mi). According to the 2011 census, Delhi's city proper population was over 11 million, the second-highest in India after Mumbai, while the whole NCT's population was about 16.8 million. Delhi's urban area is now considered to extend beyond the NCT boundaries and include the neighboring satellite cities of Faridabad, Gurgaon, Sonipat, Ghaziabad and Noida in an area now called Central National Capital Region (CNCR) and had an estimated 2016 population of over 26 million people, making it the world's third-largest urban area according to United Nations. As of 2016, recent estimates of the metro economy of its urban area have ranked Delhi either the most or second-most productive metro area of India. Delhi is the second-wealthiest city in India after Mumbai and is home to 18 billionaires and 23,000 millionaires. Delhi ranks fifth among the Indian states and union territories in human development index. Delhi has the second-highest GDP per capita in India.</p>
+<div style="background-color:white";text-color:black;width:800px;">
+
+<p><font size="6" color="black"><u>Recommended for you</u></font></p>
+<table class="t2">
+<tr>
+ <td><img src="dh1.png" width=200px></td>
+ <td><img src="dh2.png" width=200px></td>
+ <td><img src="dh3.png" width=200px></td>
+</tr>
+<tr>
+ <td><b>Red Fox Hotel,Delhi</b></td>
+ <td><b>Holiday Inn New Delhi</b></td>
+ <td><b>ibis New Delhi Aerocity</b></td>
+</tr> 
+<tr>
+ <td>New Delhi</td>
+ <td>New Delhi</td>
+ <td>New Delhi</td> 
+</tr>
+<tr>
+ <td><a href="delhi_hotels.html"><u>view more</u></a></td>
+</tr>
+</table>
+</div>
+<div style="background-color:white";text-color:black;width:800px;">
+
+
+
+<p><font size="6" color="black">Discover the best of New Delhi</font></p>
+<p><font size="3" color="black"><u>Top attractions in New Delhi</u></font></p>
+<table class="t2">
+<tr>
+ <td><img src="dh4.png" width=200px></td>
+ <td><img src="dh5.png" width=200px></td>
+ <td><img src="dh6.png" width=200px></td>
+</tr>
+<tr>
+ <td><b>Swaminarayan Akshardham</b></td>
+ <td><b>Qutub Minar</b></td>
+ <td><b>Gurudwara Bangla Sahib</b></td>
+</tr> 
+<tr>
+ <td>New Delhi</td>
+ <td>New Delhi</td>
+ <td>New Delhi</td> 
+</tr>
+<tr>
+ <td><a href="delhi_touristspots.html"><u>view more</u></a></td>
+</tr>
+</table>
+</div>
+
+
+</article>
+<nav>
+    <p><center><h3>special offers</h3></center></p>
+<table>
+<tr>
+<img src="sp-1.png" width="300" height="250"></tr>
+<tr><p>  </p></tr>
+<tr>
+<video width="350" height=auto loop autoplay muted controls>
+<source src="ad1.mp4"   type="video/mp4">
+<source src="ad1.ogg"   type="video/ogg">
+</video></tr>
+<tr><p>  </p></tr>
+<tr><img src="sp-2.jpg" width="340" height=auto></tr>
+<tr><p>  </p></tr>
+<tr><img src="sp-4.png" width="300" height="350"></tr>
+<tr><p>  </p></tr>
+</table>
+<table>
+<tr><p>  </p></tr>
+<tr>
+<img src="ad2.jpg" width="300" height=auto></tr></table>
+  </nav>
+</section>
+</body>
+</html>

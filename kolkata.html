@@ -1,0 +1,223 @@
+<html>
+<head>
+<title>name|Kolkata</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {
+  box-sizing: border-box;
+}
+.mySlides {
+    display:none;
+    position: relative;
+    width:  600px;
+    height: 400px;
+    left: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+}
+#c1 {
+  background-image: url("kolkata3.jpg");
+  height: 330px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color:white;
+}
+#c2 {
+  width: 200px;
+  height: 45px;  
+  padding: 10px 10px;
+  position:relative;
+  top:120px;
+}
+.navbar {
+  width: 100%;
+  background-color: #89d5e8;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #0b7bb8;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 1600px; 
+}
+nav {
+  float: left;
+  width: 30%;
+  height: 1600px; 
+  background: #ccc;
+  padding: 20px;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+a{text-decoration:none;
+ color:#2E5894;}
+table.t2 {
+  width: 100%; 
+  background-color: white;
+  color:black;
+}
+table.t3{
+ width:300px;
+ height:120px;
+ background-color: white;
+ color:black;
+ border: 1px solid black;
+ text-decoration:none;
+}
+</style>
+</head>
+<body>
+<div id="c1">
+ <center><div id="c2" >
+  <font size="8">Kolkata</font>
+</div></center>
+</div>
+<div class="navbar">
+  <a  href="home2.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="kolkatahotel.html"><i class="fa fa-building" aria-hidden="true"></i> Hotels</a> 
+  <a href="#rfu"><i class="fa fa-compass" aria-hidden="true"></i> Recommended for you</a> 
+  <a href="#ptv"><i class="fa fa-fort-awesome" aria-hidden="true"></i> Places to Visit</a>
+
+</div>
+<section>
+<article>
+    <p><font size="8" color="black">Kolkata</font><h2>Overview</h2></p>
+    <p>Kolkata (formerly Calcutta) is the capital of India's West Bengal state. Founded as an East India Company trading post, it was India's capital under the British Raj from 1773–1911. Today it’s known for its grand colonial architecture, art galleries and cultural festivals. It’s also home to Mother House, headquarters of the Missionaries of Charity, founded by Mother Teresa, whose tomb is on site.</p>
+  
+<div  style="max-width:500px;">
+  <img class="mySlides" src="howrah.jpg" >
+  <img class="mySlides" src="park.jpg" >
+  <img class="mySlides" src="eden.jpg" >
+  <img class="mySlides" src="dakshi.jpg" >
+  <img class="mySlides" src="victoria.jpg" >
+  <img class="mySlides" src="indian.jpg" >
+  <img class="mySlides" src="sciencecity.jpg" >
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 3 seconds
+}
+</script>
+<p>B.B.D. Bagh (formerly Dalhousie Square) is home to colonial-era landmarks like St. Andrew’s Church with its tall white steeple. It's also a setting for the General Post Office, featuring a monumental rotunda, and the 18th-century Writers’ Building, which housed the East India Company’s administrative offices. Nearby is the Maidan, a sprawling park with the Eden Gardens cricket stadium, a golf course and the white-marble Victoria Memorial, containing several art galleries. Other notable sites include the Indian Museum, displaying fossils and Mughal antiques, and Kalighat Kali Temple, dedicated to Kolkata’s Hindu patron goddess.</p>
+<div style="background-color:white";text-color:black;width:800px;">
+
+<p id="rfu"><font size="6" color="black"><u>Recommended for you</u></font></p>
+<table class="t2">
+<tr>
+ <td><img src="thepark.jpg" width=200px></td>
+ <td><img src="astor.jpg" width=200px></td>
+ <td><img src="pride.jpg" width=200px></td>
+</tr>
+<tr>
+ <td><b>The Park </b></td>
+ <td><b>The Astor</b></td>
+ <td><b>The Pride Plaza</b></td>
+</tr> 
+<tr>
+ <td>kolkata</td>
+ <td>kolkata</td>
+ <td>kolkata</td> 
+</tr>
+<tr>
+ <td><u>view more</u></td>
+</tr>
+</table>
+</div>
+<div style="background-color:white";text-color:black;width:800px;">
+
+
+
+<p id="pune"><font size="6" color="black">Discover the best of kolkata</font></p>
+<p><font size="3" color="black"><u>Top attractions in kolkata</u></font></p>
+<table class="t2">
+<tr>
+ <td><img src="howrah.jpg" width=200px></td>
+ <td><img src="victoria.jpg" width=200px></td>
+ <td><img src="dakshi.jpg" width=200px></td>
+</tr>
+<tr>
+ <td><b>Howrah bridge</b></td>
+ <td><b>Victoria Memorial</b></td>
+ <td><b>Dakshineswar kali temple</b></td>
+</tr> 
+<tr>
+ <td>Kolkata</td>
+ <td>Kolkata</td>
+ <td>Kolkata</td> 
+</tr>
+<tr>
+ <td><u>view more</u></td>
+</tr>
+</table>
+</div>
+
+
+</article>
+<nav>
+    <p><center><h3>special offers</h3></center></p>
+<table>
+<tr>
+<img src="sp-1.png" width="300" height="250"></tr>
+<tr><p>  </p></tr>
+<tr>
+<video width="350" height=auto loop autoplay muted controls>
+<source src="ad1.mp4"   type="video/mp4">
+<source src="ad1.ogg"   type="video/ogg">
+</video></tr>
+<tr><p>  </p></tr>
+<tr><img src="sp-2.jpg" width="340" height=auto></tr>
+<tr><p>  </p></tr>
+<tr><img src="sp-4.png" width="300" height="350"></tr>
+<tr><p>  </p></tr>
+</table>
+<table>
+<tr>
+<img src="1.jpg" width="300" height=auto></tr></table>
+  </nav>
+</section>
+</body>
+</html>
