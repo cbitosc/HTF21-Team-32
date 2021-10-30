@@ -1,0 +1,223 @@
+<html>
+<head>
+<title>name|Jaipur</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {
+  box-sizing: border-box;
+}
+.mySlides {
+    display:none;
+    position: relative;
+    width:  600px;
+    height: 400px;
+    left: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+}
+#c1 {
+  background-image: url("jaipur4.jpg");
+  height: 330px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color:white;
+}
+#c2 {
+  width: 200px;
+  height: 45px;  
+  padding: 10px 10px;
+  position:relative;
+  top:120px;
+}
+.navbar {
+  width: 100%;
+  background-color: #89d5e8;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #0b7bb8;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 1600px; 
+}
+nav {
+  float: left;
+  width: 30%;
+  height: 1600px; 
+  background: #ccc;
+  padding: 20px;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+a{text-decoration:none;
+ color:#2E5894;}
+table.t2 {
+  width: 100%; 
+  background-color: white;
+  color:black;
+}
+table.t3{
+ width:300px;
+ height:120px;
+ background-color: white;
+ color:black;
+ border: 1px solid black;
+ text-decoration:none;
+}
+</style>
+</head>
+<body>
+<div id="c1">
+ <center><div id="c2" >
+  <font size="8">Jaipur</font>
+</div></center>
+</div>
+<div class="navbar">
+  <a  href="home2.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="jaipurhotel.html"><i class="fa fa-building" aria-hidden="true"></i> Hotels</a> 
+  <a href="#rfu"><i class="fa fa-compass" aria-hidden="true"></i> Recommended for you</a> 
+  <a href="#ptv"><i class="fa fa-fort-awesome" aria-hidden="true"></i> Places to Visit</a>
+
+</div>
+<section>
+<article>
+    <p><font size="8" color="black">Jaipur</font><h2>Overview</h2></p>
+    <p>Jaipur is the capital of India’s Rajasthan state. It evokes the royal family that once ruled the region and that, in 1727, founded what is now called the Old City, or “Pink City” for its trademark building color. At the center of its stately street grid (notable in India) stands the opulent, colonnaded City Palace complex. With gardens, courtyards and museums, part of it is still a royal residence.</p>
+  
+<div  style="max-width:500px;">
+  <img class="mySlides" src="hawa.jpg" >
+  <img class="mySlides" src="amer.jpg" >
+  <img class="mySlides" src="jalmahal.jpg" >
+  <img class="mySlides" src="hotair.jpg" >
+  <img class="mySlides" src="albert.jpg" >
+  <img class="mySlides" src="jantarmantar.jpg" >
+  <img class="mySlides" src="nahargarh.jpg" >
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 3 seconds
+}
+</script>
+<p>Across from the City Palace is Jantar Mantar, an open-air astronomical observatory from the early 18th century. Also nearby is the Hawa Mahal (Palace of the Winds), a former cloister for royal women fronted by a rippling 5-story screen of pink sandstone. Several kilometers outside the city center, elephants carry visitors uphill to the imposing Amer Fort, which features elaborate wall carvings and paintings. On the way to the fort, many visitors stop on the banks of Man Sagar Lake to photograph Jal Mahal, a partially submerged palace that famously reflects in the water</p>
+<div style="background-color:white";text-color:black;width:800px;">
+
+<p id="rfu"><font size="6" color="black"><u>Recommended for you</u></font></p>
+<table class="t2">
+<tr>
+ <td><img src="suganniwas.jpg" width=200px></td>
+ <td><img src="umaid.jpg" width=200px></td>
+ <td><img src="sarang.jpg" width=200px></td>
+</tr>
+<tr>
+ <td><b>Sugan niwas</b></td>
+ <td><b>umaid mahl</b></td>
+ <td><b>sarang palace</b></td>
+</tr> 
+<tr>
+ <td>Jaipur</td>
+ <td>Jaipur</td>
+ <td>Jaipur</td> 
+</tr>
+<tr>
+ <td><u>view more</u></td>
+</tr>
+</table>
+</div>
+<div style="background-color:white";text-color:black;width:800px;">
+
+
+
+<p id="ptv"><font size="6" color="black">Discover the best of Jaipur</font></p>
+<p><font size="3" color="black"><u>Top attractions in Jaipur</u></font></p>
+<table class="t2">
+<tr>
+ <td><img src="hotair.jpg" width=200px></td>
+ <td><img src="jalmahal.jpg" width=200px></td>
+ <td><img src="amer.jpg" width=200px></td>
+</tr>
+<tr>
+ <td><b>Hot air rides</b></td>
+ <td><b>Jal mahal</b></td>
+ <td><b>Amer fort</b></td>
+</tr> 
+<tr>
+ <td>Jaipur</td>
+ <td>Jaipur</td>
+ <td>Jaipur</td> 
+</tr>
+<tr>
+ <td><u>view more</u></td>
+</tr>
+</table>
+</div>
+
+
+</article>
+<nav>
+    <p><center><h3>special offers</h3></center></p>
+<table>
+<tr>
+<img src="sp-1.png" width="300" height="250"></tr>
+<tr><p>  </p></tr>
+<tr>
+<video width="350" height=auto loop autoplay muted controls>
+<source src="ad1.mp4"   type="video/mp4">
+<source src="ad1.ogg"   type="video/ogg">
+</video></tr>
+<tr><p>  </p></tr>
+<tr><img src="sp-2.jpg" width="340" height=auto></tr>
+<tr><p>  </p></tr>
+<tr><img src="sp-4.png" width="300" height="350"></tr>
+<tr><p>  </p></tr>
+</table>
+<table>
+<tr>
+<img src="1.jpg" width="300" height=auto></tr></table>
+  </nav>
+</section>
+</body>
+</html>

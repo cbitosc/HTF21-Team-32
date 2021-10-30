@@ -1,0 +1,226 @@
+<html>
+<head>
+<title>TVG | Hyderabad</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {
+  box-sizing: border-box;
+}
+.mySlides {
+    display:none;
+    position: relative;
+    width:  600px;
+    height: 400px;
+    left: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+}
+#c1 {
+  background-image: url("back.jpg");
+  height: 330px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#c2 {
+  width: 200px;
+  height: 45px;  
+  padding: 10px 10px;
+  position:relative;
+  top:120px;
+}
+.navbar {
+  width: 100%;
+  background-color: #89d5e8;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #0b7bb8;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 1600px; 
+}
+nav {
+  float: left;
+  width: 30%;
+  height: 1600px; 
+  background: #ccc;
+  padding: 20px;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+a{text-decoration:none;
+ color:#2E5894;}
+table.t2 {
+  width: 100%; 
+  background-color: white;
+  color:black;
+}
+table.t3{
+ width:300px;
+ height:120px;
+ background-color: white;
+ color:black;
+ border: 1px solid black;
+ text-decoration:none;
+}
+</style>
+</head>
+<body>
+<div id="c1">
+ <center><div id="c2" >
+  <font size="8" color="lightgreen">Hyderabad</font>
+</div></center>
+</div>
+<div class="navbar">
+  <a  href="home2.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="hyd_hotel.html"><i class="fa fa-building" aria-hidden="true"></i> Hotels</a> 
+  <a href="#rfu"><i class="fa fa-compass" aria-hidden="true"></i> Recommended for you</a> 
+  <a href="#ptv"><i class="fa fa-fort-awesome" aria-hidden="true"></i> Places to Visit</a>
+
+</div>
+
+<section>
+<article>
+    <p><font size="8" color="black">Hyderabad</font><h2>Overview</h2></p>
+    <p>Hyderabad (/'ha?d?r?b??d/ (About this soundlisten) HY-d?r-?-baad) is the capital of the Indian state of Telangana and de jure capital of Andhra Pradesh.Occupying 650 square kilometres (250 sq mi) along the banks of the Musi River, Hyderabad City has a population of about 6.9 million and about 9.7 million in Hyderabad Metropolitan Region, making it the fourth-most populous city and sixth-most populous urban agglomeration in India. At an average altitude of 542 metres (1,778 ft), much of Hyderabad is situated on hilly terrain around artificial lakes, including Hussain Sagar—predating the city's founding—north of the city centre.
+
+Established in 1591 by Muhammad Quli Qutb Shah, Hyderabad remained under the rule of the Qutb Shahi dynasty for nearly a century before the Mughals captured the region. In 1724, Mughal viceroy Asif Jah I declared his sovereignty and created his own dynasty, known as the Nizams of Hyderabad. The Nizam's dominions became a princely state during the British Raj, and remained so for 150 years, with the city serving as its capital. The city continued as the capital of Hyderabad State after it was brought into the Indian Union in 1948, and became the capital of Andhra Pradesh after the States Reorganisation Act, 1956. Since 1956, Rashtrapati Nilayam in the city has been the winter office of the President of India. In 2014, the newly formed state of Telangana split from Andhra Pradesh and the city became the joint capital of the two states, a transitional arrangement scheduled to end by 2025.
+
+Hyderabad was historically known as a pearl and diamond trading centre, and it continues to be known as the "City of Pearls". Many of the city's traditional bazaars remain open, including Laad Bazaar, Begum Bazaar and Sultan Bazaar. Industrialisation throughout the 20th century attracted major Indian research, manufacturing and financial institutions, including Defence Research and Development Organization, Bharat Heavy Electricals Limited, Indian Institute of Chemical Technology, the National Geophysical Research Institute and the Centre for Cellular and Molecular Biology. Special economic zones dedicated to information technology have encouraged companies from India and around the world to set up operations in Hyderabad. The emergence of pharmaceutical and biotechnology industries in the 1990s led to the area's naming as India's "Genome Valley". With an output of US$74 billion, Hyderabad is the fifth-largest contributor to India's overall gross domestic product.</p>
+  
+<div  style="max-width:500px;">
+  <img class="mySlides" src="image1.jpg" >
+  <img class="mySlides" src="image2.jpg" >
+  <img class="mySlides" src="image3.jpg" >
+  <img class="mySlides" src="image4.jpg" >
+  <img class="mySlides" src="image5.jpg" >
+  <img class="mySlides" src="image6.jpg" >
+  <img class="mySlides" src="image7.jpg" >
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 3 seconds
+}
+</script>
+<div style="background-color:white";text-color:black;width:800px;">
+
+<p id="rfu"><font size="6" color="black"><u>Recommended for you</u></font></p>
+<table class="t2">
+<tr>
+ <td><img src="dv1.jpg" width=200px></td>
+ <td><img src="dv2.jpg" width=200px></td>
+ <td><img src="dv3.jpg" width=200px></td>
+</tr>
+<tr>
+ <td><b>Tajkrishna Hyderabad</b></td>
+ <td><b>Taj Banjara Hyderabad</b></td>
+ <td><b>Hotel Vivanta Hyderabad</b></td>
+</tr> 
+<tr>
+ <td>Hyderabad</td>
+ <td>Hyderabad</td>
+ <td>Hyderabad</td> 
+</tr>
+<tr>
+ <td><u>View More</u></td>
+</tr>
+</table>
+</div>
+<div style="background-color:white";text-color:black;width:800px;">
+
+
+
+<p id="ptv"><font size="6" color="black">Discover the best of Hyderabad</font></p>
+<p><font size="3" color="black"><u>Top attractions in Hyderabad</u></font></p>
+<table class="t2">
+<tr>
+ <td><img src="image2.jpg" width=200px></td>
+ <td><img src="image3.jpg" width=200px></td>
+ <td><img src="image5.jpg" width=200px></td>
+</tr>
+<tr>
+ <td><b>Charminar ,Hyderabad</b></td>
+ <td><b>Birla mandir ,saifabad</b></td>
+ <td><b>Ramoji film city,Hyderabad</b></td>
+</tr> 
+<tr>
+ <td>Hyderabad</td>
+ <td>Hyderabad</td>
+ <td>Hyderabad</td> 
+</tr>
+<tr>
+ <td><u>View more</u></td>
+</tr>
+</table>
+</div>
+
+
+</article>
+<nav>
+    <p><center><h3>Special Offers</h3></center></p>
+<table>
+<tr>
+<img src="sp-1.png" width="300" height="250"></tr>
+<tr><p>  </p></tr>
+<tr>
+<video width="350" height=auto loop autoplay muted controls>
+<source src="ad1.mp4"   type="video/mp4">
+<source src="ad1.ogg"   type="video/ogg">
+</video></tr>
+<tr><p>  </p></tr>
+<tr><marquee direction="up"><img src="sp-2.jpg" width="340" height=auto></marquee></tr>
+<tr><p>  </p></tr>
+<tr><marquee direction="up"><img src="sp-4.png" width="300" height="350"></marquee></tr>
+<tr><p>  </p></tr>
+</table>
+<table>
+<tr>
+<img src="ad2.jpg" width="300" height=auto></tr></table>
+  </nav>
+</section>
+</body>
+</html>

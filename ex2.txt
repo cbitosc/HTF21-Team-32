@@ -1,0 +1,18 @@
+what is npm?
+a. 'npm' is node package manager we can install different type of packages.
+
+how to include a module in node js?
+a.by using require method.
+
+explain role of nodemon
+a.nodemon observes the modificatons done by developer and it executes directly.
+
+
+what is json?
+a.JSON stands for JavaScript Object Notation
+
+JSON is a lightweight format for storing and transporting data
+
+JSON is often used when data is sent from a server to a web page
+
+JSON is "self-describing" and easy to understand

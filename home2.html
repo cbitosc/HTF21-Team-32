@@ -1,0 +1,700 @@
+<html>
+<head>
+<title>The Vacation Goals | Home</title>
+<style>
+
+#custom-button {
+        padding: 10px;
+        color: white;
+        background-color: #009578;
+      border: 1px solid #000;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+#custom-button:hover {
+    background-color: #00b28f;
+}
+
+#custom-text {
+    margin-left: 10px;
+    font-family: sans-serif;
+    color: #aaa;
+}
+.copyrights{
+background-color:#2E5894;
+width:99%;
+position:absolute;
+top:200px;
+color:white;
+}
+.md{
+border-style;
+background-color:#0c43b0;
+}
+.d1{	
+position:absolute;
+top:10px;
+left:960px;
+height:auto;
+}
+.menu2{
+position:absolute;
+top:520px;
+width:1260px;
+border-style:;
+}
+
+.column{
+background-color:#7d7d7d;
+float:left;
+width:33.33%;
+height:596px;
+border:;
+}
+.column h5,input{
+float:right;
+}
+.column input[type=text]{
+padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+width:250px;
+}
+
+.column .w3-dropdown-hover{
+position: relative;
+float:right;
+
+}
+
+
+.row{
+position:relative;
+top:50px;
+border:solid;
+width:99%;
+height:600px;
+}
+.row:after{
+content:"";
+display:table;
+clear:both;
+}
+
+.info{
+margin-top:10px;
+background-color:white;
+position:relative;
+width:60%;
+border:solid;
+left:30px;
+color:black;
+}
+
+.share{
+background-color:white;
+position:relative;
+width:60%;
+border:solid;
+left:30px;
+color:black;
+}
+
+.footer{
+position:relative;
+top:100px;
+width:99%
+background-color: #2E5894;
+font-family: comic sans MS;
+font-color:white;
+font-weight:bold;
+border:solid;
+}
+
+.f2{
+float:left;
+width:33%;
+height:200px;
+top:0px;
+background-color: #2E5894;
+color:white;
+}
+
+.f2 table{
+color:white;
+font-size:18px;
+}
+
+.f2 a{
+text-decoration:none;
+}
+
+
+
+.maindiv{
+width:100%;
+height:400px;
+position:relative;
+left:50%;
+top:220px;
+transform:translate(-50%,-50%);
+background-image:url('cover pic.jpg');
+background-size:100% 100%;
+box-shadow:1px 2px 10px 5px white;
+animation:slider 30s infinite linear;
+}
+
+
+@keyframes slider{
+0%{background-image:url('cover pic.jpg'); }
+16.66%{background-image:url('1.jpg'); }
+33.32%{background-image:url('2.jpg'); }
+49.98%{background-image:url('3.jpg'); }
+66.64%{background-image:url('4.jpg'); }
+83.30%{background-image:url('5.jpg'); }
+}
+
+
+
+
+.nmenu ul{
+list-style-type:none;
+}
+.nmenu li{
+position:relative;
+padding:10px 85px;
+margin-top:-20px;
+margin-left:5px;
+float:left;
+background-color:white;
+}
+
+.nmenu li:hover{
+background-color:black;
+}
+
+.nmenu a{
+text-transform:uppercase;
+text-decoration:none;
+color:grey;
+}
+
+.nmenu a:hover{
+color:#ffffff;
+}
+
+
+
+.d1 .search-container {
+  float: right;
+}
+.d1 input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.d1 .search-container button {
+  position:relative;
+  float: right;
+  width:50px;
+  padding: 6px 10px;
+  margin-top: 8px;
+  top:45px;
+  left:22px;
+  margin-right: 16px;
+  background: #9299a6;
+  font-size: 25.5px;
+  border: none;
+  cursor: pointer;
+}
+
+.d1 .search-container button:hover {
+  background: #ccc;
+}
+.d1 a{
+color:black;
+}
+
+
+
+.material-icons {vertical-align:-14%}
+
+
+
+
+
+
+
+
+.slideshow{
+position:relative;
+margin: 0 0px;
+padding-top:50px;
+height:700px;
+box-sizing:border-box;
+}
+
+.content{
+margin:auto;
+width:250px;
+perspective:1000px;
+position:relative;
+padding-top:80px;
+}
+
+.content-carrousel{
+width:100%;
+position:absolute;
+float:right;
+animation:rotor 15s infinite linear;
+transform-style:preserve-3d;
+}
+.content-carrousel:hover{
+animation-play-state:paused;
+cursor:pointer;
+}
+.content-carrousel figure{
+width:60%;
+margin-left:60px;
+position:fixed;
+height:120px;
+border:1px solid #4d444d;
+overflow:hidden;
+position:absolute;
+}
+.content-carrousel figure:nth-child(1){
+transform:rotateY(0deg) translateZ(300px);
+}
+.content-carrousel figure:nth-child(2){
+transform:rotateY(45deg) translateZ(300px);
+}
+.content-carrousel figure:nth-chibld(3){
+transform:rotateY(90deg) translateZ(300px);
+}
+.content-carrousel figure:nth-child(4){
+transform:rotateY(135deg) translateZ(300px);
+}
+.content-carrousel figure:nth-child(5){
+transform:rotateY(180deg) translateZ(300px);
+}
+.content-carrousel figure:nth-child(6){
+transform:rotateY(225deg) translateZ(300px);
+}
+.content-carrousel figure:nth-child(7){
+transform:rotateY(270deg) translateZ(300px);
+}
+.content-carrousel figure:nth-child(8){
+transform:rotateY(315deg) translateZ(300px);
+}
+.shadow{
+position:absolute;
+box-shadow:0  10px 10px 10px black;
+border-radius:2px;
+}
+.content-carrousel img{
+image-rendering:auto;
+transition:all 300ms;
+width:100%;
+height:100%;
+}
+.content-carrousel img:hover{
+transform:scale(1.2);
+transition:all 300ms;
+}
+@keyframes rotor{
+	from{
+		transform:rotateY(0deg);
+	} to{
+		transform:rotateY(360deg);
+	}
+}
+}
+
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+#tvg a{
+color:white;
+list-style: none;
+display: inline-block;
+padding: 8px 12px;
+position: relative;
+}
+
+
+
+
+
+</style>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+
+<script>
+</script>
+
+</head>
+<body bgcolor="#e5e5e5">
+<div class="md">
+<img src="logo5.jpg" width=10% height=auto>
+<img src="l4.jpg" width=20% height=12%>
+<div class="d1">
+<div  >
+ 
+<div class="w3-container" >
+  
+  <div class="w3-dropdown-hover">
+    <button class="w3-button w3-black">Search</button>
+    <div class="w3-dropdown-content w3-bar-block w3-border">
+      <a href="hyd.html" class="w3-bar-item w3-button">Hyderabad</a>
+      <a href="mumbai.html" class="w3-bar-item w3-button">Mumbai</a>
+      <a href="chennai.html" class="w3-bar-item w3-button">Chennai</a>
+      <a href="bangalore.html" class="w3-bar-item w3-button">Bangalore</a>
+      <a href="delhi.html" class="w3-bar-item w3-button">Delhi</a>
+      <a href="kerala.html" class="w3-bar-item w3-button">Kerala</a>
+      <a href="goa.html" class="w3-bar-item w3-button">Goa</a>
+      <a href="andaman.html" class="w3-bar-item w3-button">Andaman</a>
+      <a href="jaipur.html" class="w3-bar-item w3-button">Jaipur</a>
+      <a href="kolkata.html" class="w3-bar-item w3-button">Kolkata</a>
+      <a href="pune.html" class="w3-bar-item w3-button">Pune</a>
+    </div>
+  </div>
+</div>
+      <div id="tvg">
+	<a href="login.html">Login</a></pre>
+	<a href="register.html" align="left">Sign Up</a>
+  </div></div>
+
+</div>
+</div>
+</br>
+<div class="nmenu">
+	<ul>
+	<li><a href="home2.html">Home</a></li>
+	<li><a onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Post</a></li>
+	<li><a onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Review</a></li>
+	<li><a href="about_us.html">About Us</a></li>
+	<li><a href="contactus.html">Contact Us</a></li>
+	</ul>
+</div>
+
+</br>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate">
+    
+
+    <div class="container">
+      <label for="uname"><b>Write Review</b></label>
+      <input type="text" placeholder="Write Review..." name="uname" required> 
+      <button type="submit">Submit</button>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+<div id="id02" class="modal">
+  
+  <form class="modal-content animate">
+    
+
+    <div class="container1">
+      <label for="uname"><b>Post Image</b></label>
+      <input type="file" id="real-file" hidden="hidden" />
+      <button type="button" id="custom-button">CHOOSE A FILE</button>
+      <span id="custom-text">No file chosen, yet.</span>
+    </div>
+
+    <div class="container1" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+      <button type="submit" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Submit</button>
+      
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+const realFileBtn = document.getElementById("real-file");
+    const customBtn = document.getElementById("custom-button");
+    const customTxt = document.getElementById("custom-text");
+
+    customBtn.addEventListener("click", function() {
+      realFileBtn.click();
+    });
+
+    realFileBtn.addEventListener("change", function() {
+      if (realFileBtn.value) {
+        customTxt.innerHTML = realFileBtn.value.match(
+          /[\/\\]([\w\d\s\.\-\(\)]+)$/
+        )[1];
+      } else {
+        customTxt.innerHTML = "No file chosen, yet.";
+      }
+    });
+</script>
+
+
+<div class="maindiv">
+
+
+</div>
+<div class="row">
+	<div class="column">
+	<div class="info">
+	<h3 align="center">More personal. More helpful. More connected.</h3>
+	<ul>
+	<li>Get personalised advice from the friends and travel experts you trust</li>
+	<li>Easily find hotels, things to do & restaurants that are right for you</li>
+	<li>It's everything you need to know and go better. Every time.</li></ul></div>
+	</br>
+	<div class="share">
+	<h3>Share your travel advice</h3>
+	<p><img src="iconfinder_BT_camera_905563.png" width=15% height=auto><a onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Post photos</a></p>
+	<p><img src="iconfinder_notes_edit_103663.png" width=15% height=auto><a onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Write review</a></p>
+	</div>
+
+	</div>
+
+	<div class="column">
+
+<section class="slideshow">
+	<div class="content">
+		<div class="content-carrousel">
+			<figure class="shadow"><img src="sh1.jpg"></figure>
+			<figure class="shadow"><img src="sh2.jpg"></figure>
+			<figure class="shadow"><img src="sh3.jpg"></figure>
+			<figure class="shadow"><img src="sh4.jpg"></figure>
+			<figure class="shadow"><img src="sh5.jpg"></figure>
+			<figure class="shadow"><img src="sh6.jpg"></figure>
+			<figure class="shadow"><img src="sh7.jpg"></figure>
+			<figure class="shadow"><img src="sh8.jpg"></figure>
+		</div>
+	</div>
+</section>
+
+
+	</div>
+
+	<div class="column">
+	<h5>Not Yet Planned!!</h5>
+	<div class="w3-container">
+  <div class="w3-dropdown-hover">
+    <button class="w3-button w3-black">Search</button>
+    <div class="w3-dropdown-content w3-bar-block w3-border">
+      <a href="hyd.html" class="w3-bar-item w3-button">Hyderabad</a>
+      <a href="mumbai.html" class="w3-bar-item w3-button">Mumbai</a>
+      <a href="chennai.html" class="w3-bar-item w3-button">Chennai</a>
+      <a href="bangalore.html" class="w3-bar-item w3-button">Bangalore</a>
+      <a href="delhi.html" class="w3-bar-item w3-button">Delhi</a>
+      <a href="kerala.html" class="w3-bar-item w3-button">Kerala</a>
+      <a href="goa.html" class="w3-bar-item w3-button">Goa</a>
+      <a href="andaman.html" class="w3-bar-item w3-button">Andaman</a>
+      <a href="jaipur.html" class="w3-bar-item w3-button">Jaipur</a>
+      <a href="kolkata.html" class="w3-bar-item w3-button">Kolkata</a>
+      <a href="pune.html" class="w3-bar-item w3-button">Pune</a>
+    </div>
+  </div>
+</div>
+	
+	
+
+	</div>
+</div>
+
+<footer class="footer">
+	<div class="f2">
+	<table width=30% height=auto border=0 align="center">
+	<tr>
+	<tr><th><a href="home2.html">Home</a></th></tr>
+	<tr><th><a onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Post </a></th></tr>
+	<tr><th>Review</th></tr>
+	<tr><th><a href="about_us.html">About Us</th></tr>
+	<tr><th><a href="contactus.html">Contact Us</a></th></tr>
+	</table>
+	</div>
+
+	<div class="f2">
+	<table width=30% height=auto border=0 align="center">
+	<tr><th>Hotels</th></tr>
+	<tr><th>Restaurants</th></tr>
+	<tr><th>Flights</th></tr>
+	<tr><th>Things to do</th></tr>
+	<tr><th>Holiday Homes</th></tr>
+	<tr><th>More</th></tr>
+	</table>
+	</div>
+
+	<div class="f2">
+	<table width=30% height=auto border=0 align="center">
+	<tr><th><a href=https://www.google.com/maps/place/Chaitanya+Bharathi+Institute+of+Technology/@17.3919735,78.2844179,13z/data=!4m9!1m2!2m1!1scbit!3m5!1s0x3bcb94eba8ad7c87:0xb78f51ed556f7cc5!8m2!3d17.3919735!4d78.3194368!15sCgRjYml0WgYiBGNiaXSSAQdjb2xsZWdlmgEjQ2haRFNVaE5NRzluUzBWSlEwRm5TVU5MTmpWeWFGRlJFQUU>Site Map</a></th></tr>
+	<tr><th>Privacy and policy</th></tr>
+	<tr><th>Terms and conditions</th></tr>
+	<tr><th><a href="register.html">Sign up</a></th></tr>
+	<tr><th></th></tr>
+	</table>
+
+	</div>
+	<div class="copyrights">
+	<p>&copy 2021<img src="name.jpg" width=10% height=auto align="left"></p>
+	<img src="logo7.jpg" width=7% height=auto align="right">
+
+</div>                                                                                             
+
+
+
+</footer>
+
+
+</body>
+</html>

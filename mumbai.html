@@ -1,0 +1,228 @@
+<html>
+<head>
+<title>TVG | Mumbai</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {
+  box-sizing: border-box;
+}
+.mySlides {
+    display:none;
+    position: relative;
+    width:  600px;
+    height: 400px;
+    left: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+}
+#c1 {
+  background-image: url("mumcoverpic1.jpg");
+  height: 330px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#c2 {
+  width: 200px;
+  height: 45px;  
+  padding: 10px 10px;
+  position:relative;
+  top:170px;
+}
+.navbar {
+  width: 100%;
+  background-color: #89d5e8;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #0b7bb8;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 1600px; 
+}
+nav {
+  float: left;
+  width: 30%;
+  height: 1600px; 
+  background: #ccc;
+  padding: 20px;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+a{text-decoration:none;
+ color:#2E5894;}
+table.t2 {
+  width: 100%; 
+  background-color: white;
+  color:black;
+}
+table.t3{
+ width:300px;
+ height:120px;
+ background-color: white;
+ color:black;
+ border: 1px solid black;
+ text-decoration:none;
+}
+</style>
+</head>
+<body>
+<div id="c1">
+ <center><div id="c2" >
+  <font size="8">Mumbai</font>
+</div></center>
+</div>
+<div class="navbar">
+  <a  href="home2.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="mumbai_hotels.html"><i class="fa fa-building" aria-hidden="true"></i> Hotels</a> 
+  <a href="#rfu"><i class="fa fa-compass" aria-hidden="true"></i> Recommended for you</a> 
+  <a href="#ptv"><i class="fa fa-fort-awesome" aria-hidden="true"></i> Places to Visit</a>
+
+</div>
+<section>
+<article>
+    <p><font size="8" color="black">Mumbai</font><h2>Overview</h2></p>
+    <p>Mumbai ( also known as Bombay, the official name until 1995) is the capital city of the Indian state of Maharashtra. As of 2011 it is the most populous city in India with an estimated city proper population of 12.4 million. The larger Mumbai Metropolitan Region is the second-most-populous metropolitan area in India, with a population of 21.3 million as of 2016. Mumbai lies on the Konkan coast on the west coast of India and has a deep natural harbour. In 2008, Mumbai was named an alpha world city. It is also the wealthiest city in India, and has the highest number of millionaires and billionaires among all cities in India. Mumbai is home to three UNESCO World Heritage Sites: the Elephanta Caves, Chhatrapati Shivaji Maharaj Terminus, and the city's distinctive ensemble of Victorian and Art Deco buildings.
+
+The seven islands that constitute Mumbai were originally home to communities of Koli people, who originated in Gujarat in prehistoric times. For centuries, the islands were under the control of successive indigenous empires before being ceded to the Portuguese Empire and subsequently to the East India Company when in 1661 Charles II of England married Catherine of Braganza and as part of her dowry Charles received the ports of Tangier and Seven Islands of Bombay.</p>
+  
+<div  style="max-width:500px;">
+  <img class="mySlides" src="mumss1.jpg" >
+  <img class="mySlides" src="mumss2.jpg" >
+  <img class="mySlides" src="mumss3.jpg" >
+  <img class="mySlides" src="mumss4.jpg" >
+  <img class="mySlides" src="mumss5.jpg" >
+  <img class="mySlides" src="mumss6.jpg" >
+  <img class="mySlides" src="mumss7.jpg" >
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 3 seconds
+}
+</script>
+<p>Tourism in Mumbai is an industry that attracts almost 6 million tourists per year, making it the 30th-most visited location worldwide. With a metro population of approximately 20 million, Mumbai is the largest city in India and the 10th largest city in the world. 
+
+
+Clockwise from top: Cuffe Parade skyline, Taj Mahal Palace Hotel, Chhatrapati Shivaji Terminus, Bandra–Worli Sea Link, and the Gateway of India.
+Mumbai offers natural heritage and modern entertainment including leisure spots, beaches, cinemas, studios, holy places, amusement parks and historical monuments. Transport options include air, road, train and ship.</p>
+<div style="background-color:white";text-color:black;width:800px;">
+
+<p id="rfu"><font size="6" color="black"><u>Recommended for you</u></font></p>
+<table class="t2">
+<tr>
+ <td><img src="mumrec1.png" width=200px></td>
+ <td><img src="mumrec2.png" width=200px></td>
+ <td><img src="mumrec3.png" width=200px></td>
+</tr>
+<tr>
+ <td><b>Gateway of India</b></td>
+ <td><b>Shree Siddhivinayak</b></td>
+ <td><b>Govardhan Ecovillage</b></td>
+</tr> 
+<tr>
+ <td>Mumbai</td>
+ <td>Mumbai</td>
+ <td>Mumbai</td> 
+</tr>
+<tr>
+ <td><u>view more</u></td>
+</tr>
+</table>
+</div>
+<div style="background-color:white";text-color:black;width:800px;">
+
+
+
+<p id="ptv"><font size="6" color="black">Discover the best of Mumbai</font></p>
+<p><font size="3" color="black"><u>Top attractions in Mumbai</u></font></p>
+<table class="t2">
+<tr>
+ <td><img src="mumrec4.png" width=200px></td>
+ <td><img src="mumrec5.png" width=200px></td>
+ <td><img src="mumrec6.png" width=200px></td>
+</tr>
+<tr>
+ <td><b>The Oberoi, Mumbai</b></td>
+ <td><b>Sofitel Mumbai BKC</b></td>
+ <td><b>ITC Grand Central,Mumbai</b></td>
+</tr> 
+<tr>
+ <td>Mumbai</td>
+ <td>Mumbai</td>
+ <td>Mumbai</td> 
+</tr>
+<tr>
+ <td><u>view more</u></td>
+</tr>
+</table>
+</div>
+
+
+</article>
+<nav>
+    <p><center><h3>special offers</h3></center></p>
+<table>
+<tr>
+<img src="sp-1.png" width="300" height="250"></tr>
+<tr><p>  </p></tr>
+<tr>
+<video width="350" height=auto loop autoplay muted controls>
+<source src="ad1.mp4"   type="video/mp4">
+<source src="ad1.ogg"   type="video/ogg">
+</video></tr>
+<tr><p>  </p></tr>
+<tr><img src="sp-2.jpg" width="340" height=auto></tr>
+<tr><p>  </p></tr>
+<tr><img src="sp-4.png" width="300" height="350"></tr>
+<tr><p>  </p></tr>
+</table>
+<table>
+<tr>
+<img src="ad2.jpg" width="300" height=auto></tr></table>
+  </nav>
+</section>
+</body>
+</html>

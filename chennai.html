@@ -1,0 +1,223 @@
+<html>
+<head>
+<title>name|chennai</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {
+  box-sizing: border-box;
+}
+.mySlides {
+    display:none;
+    position: relative;
+    width:  600px;
+    height: 400px;
+    left: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+}
+#c1 {
+  background-image: url("chennaicover.jpg");
+  height: 330px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#c2 {
+  width: 200px;
+  height: 45px;  
+  padding: 10px 10px;
+  position:relative;
+  top:120px;
+  color:white;
+}
+.navbar {
+  width: 100%;
+  background-color: #89d5e8;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #0b7bb8;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 1600px; 
+}
+nav {
+  float: left;
+  width: 30%;
+  height: 1600px; 
+  background: #ccc;
+  padding: 20px;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+a{text-decoration:none;
+ color:#2E5894;}
+table.t2 {
+  width: 100%; 
+  background-color: white;
+  color:black;
+}
+table.t3{
+ width:300px;
+ height:120px;
+ background-color: white;
+ color:black;
+ border: 1px solid black;
+ text-decoration:none;
+}
+</style>
+</head>
+<body>
+<div id="c1">
+ <center><div id="c2" >
+  <font size="8">Chennai</font>
+</div></center>
+</div>
+<div class="navbar">
+  <a  href="home2.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="hotelschennai.html"><i class="fa fa-building" aria-hidden="true"></i> Hotels</a> 
+  <a href="#rfu"><i class="fa fa-compass" aria-hidden="true"></i> Recommended for you</a> 
+  <a href="#ptv"><i class="fa fa-fort-awesome" aria-hidden="true"></i> Places to Visit</a>
+
+</div>
+<section>
+<article>
+    <p><font size="8" color="black">Chennai</font><h2>Overview</h2></p>
+    <p>Chennai  is the capital of the Indian state of Tamil Nadu. Located on the Coromandel Coast off the Bay of Bengal, it is the biggest cultural, economic and educational centre of south India. According to the 2011 Indian census, it is the sixth-most populous city and fourth-most populous urban agglomeration in India. The city together with the adjoining regions constitute the Chennai Metropolitan Area, which is the 36th-largest urban area by population in the world.</p>
+  
+<div  style="max-width:500px;">
+  <img class="mySlides" src="mgr.jpg" >
+  <img class="mySlides" src="iskcon.jpg" >
+  <img class="mySlides" src="jungle.jpg" >
+  <img class="mySlides" src="marina.jpg" >
+  <img class="mySlides" src="parkchennai.jpg" >
+  <img class="mySlides" src="mgm.jpeg" >
+  <img class="mySlides" src="thousand.jpg" >
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 3 seconds
+}
+</script>
+<p>Chennai is among the most-visited Indian cities by foreign tourists. It was ranked the 43rd-most visited city in the world for the year 2015. The Quality of Living Survey rated Chennai as the safest city in India. Chennai attracts 45 percent of health tourists visiting India, and 30 to 40 percent of domestic health tourists. As such, it is termed "India's health capital". As a growing metropolitan city in a developing country, Chennai confronts substantial pollution and other logistical and socio-economic problems.</p>
+<div style="background-color:white";text-color:black;width:800px;">
+
+<p id="rfu"><font size="6" color="black"><u>Recommended for you</u></font></p>
+<table class="t2">
+<tr>
+ <td><img src="taj.jpg" width=200px></td>
+ <td><img src="parkchennai.jpg" width=200px></td>
+ <td><img src="inter.jpg" width=200px></td>
+</tr>
+<tr>
+ <td><b>Taj Club</b></td>
+ <td><b>The Park</b></td>
+ <td><b>Intercontinental Chennai Mahabalipuram Resort</b></td>
+</tr> 
+<tr>
+ <td>Royapettah</td>
+ <td>T.Nagar</td>
+ <td>Nemelli Village</td> 
+</tr>
+<tr>
+ <td><u>view more</u></td>
+</tr>
+</table>
+</div>
+<div style="background-color:white";text-color:black;width:800px;">
+
+
+
+<p id="ptv"><font size="6" color="black">Discover the best of New Delhi</font></p>
+<p><font size="3" color="black"><u>Top attractions in New Delhi</u></font></p>
+<table class="t2">
+<tr>
+ <td><img src="iskcon.jpg" width=200px></td>
+ <td><img src="jungle.jpg" width=200px></td>
+ <td><img src="snow.jpg" width=200px></td>
+</tr>
+<tr>
+ <td><b>Iskcon Temple</b></td>
+ <td><b>Jungle Safari</b></td>
+ <td><b>Snow Kingdom</b></td>
+</tr> 
+<tr>
+ <td>Sholinganallur</td>
+ <td>Purasaiwakkam</td>
+ <td>Injambakkam</td> 
+</tr>
+<tr>
+ <td><u>view more</u></td>
+</tr>
+</table>
+</div>
+
+
+</article>
+<nav>
+    <p><center><h3>special offers</h3></center></p>
+<table>
+<tr>
+<img src="sp-1.png" width="300" height="250"></tr>
+<tr><p>  </p></tr>
+<tr>
+<video width="350" height=auto loop autoplay muted controls>
+<source src="ad1.mp4"   type="video/mp4">
+<source src="ad1.ogg"   type="video/ogg">
+</video></tr>
+<tr><p>  </p></tr>
+<tr><img src="sp-2.jpg" width="340" height=auto></tr>
+<tr><p>  </p></tr>
+<tr><img src="sp-4.png" width="300" height="350"></tr>
+<tr><p>  </p></tr>
+</table>
+<table>
+<tr>
+<img src="ad2.jpg" width="300" height=auto></tr></table>
+  </nav>
+</section>
+</body>
+</html>

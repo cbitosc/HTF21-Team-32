@@ -1,0 +1,223 @@
+<html>
+<head>
+<title>name|andaman</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {
+  box-sizing: border-box;
+}
+.mySlides {
+    display:none;
+    position: relative;
+    width:  600px;
+    height: 400px;
+    left: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+}
+#c1 {
+  background-image: url("anda.jpg");
+  height: 330px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#c2 {
+  width: 200px;
+  height: 45px;  
+  padding: 10px 10px;
+  position:relative;
+  top:120px;
+}
+.navbar {
+  width: 100%;
+  background-color: #89d5e8;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #0b7bb8;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 1600px; 
+}
+nav {
+  float: left;
+  width: 30%;
+  height: 1600px; 
+  background: #ccc;
+  padding: 20px;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+a{text-decoration:none;
+ color:#2E5894;}
+table.t2 {
+  width: 100%; 
+  background-color: white;
+  color:black;
+}
+table.t3{
+ width:300px;
+ height:120px;
+ background-color: white;
+ color:black;
+ border: 1px solid black;
+ text-decoration:none;
+}
+</style>
+</head>
+<body>
+<div id="c1">
+ <center><div id="c2" >
+  <font size="8">Andaman</font>
+</div></center>
+</div>
+<div class="navbar">
+  <a  href="home2.html"><i class="fa fa-fw fa-home"></i> Home</a> 
+  <a href="andamanhotels.html"><i class="fa fa-building" aria-hidden="true"></i> Hotels</a> 
+  <a href="#rfu"><i class="fa fa-compass" aria-hidden="true"></i> Recommended for you</a> 
+  <a href="#ptv"><i class="fa fa-fort-awesome" aria-hidden="true"></i> Places to Visit</a>
+
+</div>
+<section>
+<article>
+    <p><font size="8" color="black">Andaman</font><h2>Overview</h2></p>
+    <p>The Andaman Islands are an Indian archipelago in the Bay of Bengal. These roughly 300 islands are known for their palm-lined, white-sand beaches, mangroves and tropical rainforests. Coral reefs supporting marine life such as sharks and rays make for popular diving and snorkeling sites. Indigenous Andaman Islanders inhabit the more remote islands, many of which are off limits to visitors.</p>
+  
+<div  style="max-width:500px;">
+  <img class="mySlides" src="andaman1.jpg" >
+  <img class="mySlides" src="jail.jpg" >
+  <img class="mySlides" src="lime.jpg" >
+  <img class="mySlides" src="fisheries.jpg" >
+  <img class="mySlides" src="scuba.png" >
+  <img class="mySlides" src="havelock.jpg" >
+  <img class="mySlides" src="andaman2.jpg" >
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 3 seconds
+}
+</script>
+<p>Wildlife sanctuaries include the Mahatma Gandhi Marine National Park, home to mangrove forests, coral reefs and a cluster of islands. Cellular Jail, a colonial prison where British authorities held freedom fighters during the Indian struggle for independence, is a national memorial in Port Blair, the Andaman Islands' capital. Havelock Island, with beach resorts, is prized for its snorkeling and scuba spots. To its south is laid-back Neil Island. Ross Island is home to the ruins of the British administrative headquarters, abandoned in the mid-20th century following an earthquake</p>
+<div style="background-color:white";text-color:black;width:800px;">
+
+<p id="rfu"><font size="6" color="black"><u>Recommended for you</u></font></p>
+<table class="t2">
+<tr>
+ <td><img src="fortuneresort.jpg" width=200px></td>
+ <td><img src="sinclairs.jpg" width=200px></td>
+ <td><img src="theocean.jpg" width=200px></td>
+</tr>
+<tr>
+ <td><b>Fortune Resort Bay</b></td>
+ <td><b>Sinclairs Bayview</b></td>
+ <td><b>The Ocean Terrace</b></td>
+</tr> 
+<tr>
+ <td>Port Blair</td>
+ <td>Port Blair</td>
+ <td>Port Blair</td> 
+</tr>
+<tr>
+ <td><u>view more</u></td>
+</tr>
+</table>
+</div>
+<div style="background-color:white";text-color:black;width:800px;">
+
+
+
+<p id="ptv"><font size="6" color="black">Discover the best of Andaman</font></p>
+<p><font size="3" color="black"><u>Top attractions in Andaman</u></font></p>
+<table class="t2">
+<tr>
+ <td><img src="havelock.jpg" width=200px></td>
+ <td><img src="jail.jpg" width=200px></td>
+ <td><img src="lime.jpg" width=200px></td>
+</tr>
+<tr>
+ <td><b>Havelock Island</b></td>
+ <td><b>Cellular Jail</b></td>
+ <td><b>Lime Cave</b></td>
+</tr> 
+<tr>
+ <td>Ritchie's Archipelago</td>
+ <td>Port Blair</td>
+ <td>Katan</td> 
+</tr>
+<tr>
+ <td><u>view more</u></td>
+</tr>
+</table>
+</div>
+
+
+</article>
+<nav>
+    <p><center><h3>special offers</h3></center></p>
+<table>
+<tr>
+<img src="sp-1.png" width="300" height="250"></tr>
+<tr><p>  </p></tr>
+<tr>
+<video width="350" height=auto loop autoplay muted controls>
+<source src="ad1.mp4"   type="video/mp4">
+<source src="ad1.ogg"   type="video/ogg">
+</video></tr>
+<tr><p>  </p></tr>
+<tr><img src="sp-2.jpg" width="340" height=auto></tr>
+<tr><p>  </p></tr>
+<tr><img src="sp-4.png" width="300" height="350"></tr>
+<tr><p>  </p></tr>
+</table>
+
+<table>
+<tr>
+<img src="1.jpg" width="300" height=auto></tr></table>
+  </nav>
+</section>
+</body>
+</html>
